@@ -15,12 +15,12 @@ import java.net.UnknownHostException;
  * @Description:
  * @Data: 20:01 2021/11/3
  */
-public class ServerDemo extends WebSocketServer{
+public class WebSocketServerManager extends WebSocketServer{
 
-    public ServerDemo() throws UnknownHostException {
+    public WebSocketServerManager() throws UnknownHostException {
     }
 
-    public ServerDemo(int port) throws UnknownHostException {
+    public WebSocketServerManager(int port) throws UnknownHostException {
         super(new InetSocketAddress(port));
         System.out.println("websocket Server start at port:"+port);
     }

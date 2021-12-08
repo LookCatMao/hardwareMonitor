@@ -22,7 +22,7 @@ public class MonitorApplication {
         logger.info("系统监控服务启动");
         new MainFrame().setVisible(false);
         try {
-            new ServerDemo(8887).start();
+            new WebSocketServerManager(8887).start();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }

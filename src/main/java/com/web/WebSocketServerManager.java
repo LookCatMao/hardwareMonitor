@@ -1,9 +1,7 @@
-package com;
+package com.web;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.sigar.SigarManager;
-import com.sigar.SigarTest;
+import com.hardware.*;
 import org.java_websocket.WebSocket;
 import org.java_websocket.handshake.ClientHandshake;
 import org.java_websocket.server.WebSocketServer;
@@ -54,7 +52,7 @@ public class WebSocketServerManager extends WebSocketServer{
         resultJson.put("gpu", Nvidia.getProfile().getInfo());
 
         JSONObject cpuJson = Cpu.getProfile().getInfo();
-        cpuJson.put("temperature", SystemInfoUtils.getCPUTemperature());
+       // cpuJson.put("temperature", SystemInfoUtils.getCPUTemperature());
         resultJson.put("cpu", cpuJson);
         resultJson.put("hdd", HardDiskDrive.getInfo());
         resultJson.put("memory", Memory.getProfile().getInfo());

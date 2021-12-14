@@ -1,4 +1,4 @@
-package com;
+package com.hardware;
 
 import com.alibaba.fastjson.JSONObject;
 import com.common.Constants;

@@ -1,5 +1,6 @@
-package com;
+package com.hardware;
 
+import com.MonitorApplication;
 import com.sigar.SigarManager;
 import org.hyperic.sigar.OperatingSystem;
 import org.hyperic.sigar.Sigar;

@@ -1,6 +1,6 @@
 package com.sigar;
 
-import com.Cpu;
+import com.hardware.Cpu;
 import com.common.StringUtils;
 import org.hyperic.sigar.Sigar;
 import org.slf4j.Logger;

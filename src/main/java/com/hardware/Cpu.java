@@ -1,4 +1,4 @@
-package com;
+package com.hardware;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;

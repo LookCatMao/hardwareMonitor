@@ -1,4 +1,4 @@
-package com.sigar;
+package com.discard;
 
 
 import java.io.File;

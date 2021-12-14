@@ -1,4 +1,4 @@
-package com;
+package com.ui;
 
 
 import java.awt.AWTException;
